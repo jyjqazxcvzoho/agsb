@@ -33,7 +33,7 @@ CUSTOM_DOMAIN_FILE = INSTALL_DIR / "custom_domain.txt" # 存储最终使用的�
 # ====== 全局可配置参数（可直接在此处修改） ======
 USER_NAME = "jyj"         # 用户名
 UUID = "b1bf25bc-d200-43d4-bd06-8e69fedb87a9"                     # UUID，留空则自动生成
-PORT = 38112                  # Vmess端口，留空或0则自动生成
+PORT =                   # Vmess端口，留空或0则自动生成
 DOMAIN = "251129.jyjqazxcv.dpdns.org"                   # 域名，留空则自动获取
 CF_TOKEN = "eyJhIjoiMGNlMjY1MzgwNTU4ZjBlZWVhMzZjNTkwMDFiYjliNGYiLCJ0IjoiNDIyM2Y1MTAtNWZlOC00ZWE0LTgxOWItMDZhNTM4NWM4MDVmIiwicyI6Ik56QTNNbVV3WVdRdFl6WTFOaTAwWVRoakxUa3hZMll0WVdJMU5qWm1abU5qWVdZNSJ9"                 # Cloudflare Token，留空则用Quick Tunnel
 # =========================================
