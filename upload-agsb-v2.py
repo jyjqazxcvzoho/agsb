@@ -179,11 +179,11 @@ def generate_links(domain, port_vm_ws, uuid_str):
 
     # Cloudflare优选IP和端口
     cf_ips_tls = {
-        "104.16.0.0": "443", "104.17.0.0": "8443", "104.18.0.0": "2053",
-        "104.19.0.0": "2083", "104.20.0.0": "2087"
+        "cf.tencentapp.cn": "443", "cf.tencentapp.cn": "8443", "cf.tencentapp.cn": "2053",
+        "cf.tencentapp.cn": "2083", "cf.tencentapp.cn": "2087"
     }
     cf_ips_http = {
-        "104.21.0.0": "80", "104.22.0.0": "8080", "104.24.0.0": "8880"
+        "cf.tencentapp.cn": "80", "cf.tencentapp.cn": "8080", "cf.tencentapp.cn": "8880"
     }
 
     # === TLS节点 ===
